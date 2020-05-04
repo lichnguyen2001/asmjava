@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo danh sách sản phẩm</title>
+    
+    <script src="scrip.js"></script>
+</head>
+<body>
+    
+    <script>
+        //1. lưu trữ danh sách sản phẩm
+        //1.1: tạo danh sách
+        var danhSachSanPham = new Array();
+        var iphon5 = taoDTSP('https://clickbuy.com.vn/uploads/2019/03/iPhone-7-vang-hong.png','iphon5', 5000000, 20, 'hanoi');
+        var iphon6 = taoDTSP('https://clickbuy.com.vn/uploads/2019/03/iPhone-7-vang-hong.png','iphon5', 5000000, 20, 'hanoi');
+        var iphon7 = taoDTSP('https://clickbuy.com.vn/uploads/2019/03/iPhone-7-vang-hong.png','iphon5', 5000000, 20, 'hanoi');
+        danhSachSanPham.push(iphon5);
+        danhSachSanPham.push(iphon6);
+        danhSachSanPham.push(iphon7);
+
+
+        //1.2: chuyển danh sách sản phẩm
+        var json = JSON.stringify(danhSachSanPham);
+        console.log(json);
+
+        //1.3: luu trữ 
+        localStorage.setItem('danhSachSanPham', json);
+
+        //yêu cầu 2:
+
+        var jsonLayTuLocal =  localStorage.getItem('danhSachSanPham');
+
+        var danhSachLocal = JSON.parse(jsonLayTuLocal);
+        console.log(danhSachLocal);
+
+
+
+
+        
+    </script>
+</body>
+</html>

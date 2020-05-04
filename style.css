@@ -1,0 +1,179 @@
+.khung-3
+{
+	width: 1100px;
+	height: 40px;
+	background-color: #f0e7e0;
+	margin: 0 auto;
+}
+.khung3-tong
+{
+	width: 1100px;
+	height: 40px;
+	background-color: rgb(238, 98, 34);
+	margin: 0 auto;
+	
+}
+.khung3-tong li
+{
+	float: left;
+	
+	padding-right: 20px;
+    line-height: 40px;
+    list-style: none;
+   
+}
+
+.khung3-tong a
+{
+    text-decoration: none;
+    color: #f5eeee;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: bold;
+    display: block;	
+}
+
+ul.sub-menu a
+{
+	font-size: 14px;
+}
+
+.khung3-tong ul
+{
+	list-style-type: none;
+	text-align: center;
+	padding-inline-start: 0px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sub-menu 
+{
+	background-color: rgb(247, 101, 101);
+   display: none;
+    position: absolute;
+    width: auto;
+    z-index: 1;
+}
+
+.khung3-tong li 
+{
+  		position: relative;
+}
+
+.khung3-tong li:hover .sub-menu 
+{
+  	display: block;
+}
+
+.sub-menu li 
+{
+ 	margin-left: 0 !important;
+ 	width: 150px;
+ 	text-align: left;
+ 	height: 40px;
+	
+}
+
+.sub-menu > ul
+{
+	  display: none !important;
+	  
+}
+
+.khung3-tong a:hover
+{
+	color: rgb(46, 228, 167);
+	
+}
+
+
+
+.aaaaa {
+    margin-top: 50px;
+}
+.khung-4
+{
+	width: 1100px;
+	height: 314px;
+	margin: 0 auto;
+}
+.khung4-tong1
+{
+	width: 1200px;
+	height: 414px;
+	margin: 0 auto;
+}
+.khung4-tong1 img{
+    border: none;
+    margin: auto;
+}
+
+.gio-hang {
+    margin-right: 50px;
+    height: 40px;
+	float: right;
+	padding-top: 5px;
+}
+
+.hanh-dong i{
+	pointer-events: none;
+}
+
+.slider {
+	width: 1400px;
+	margin: auto;
+}
+
+.tieuDeSanPham
+{
+	width: 1000px;
+	margin: auto;
+	font-size: 40px;
+}
+.tieuDeSanPham h5 {
+	font-size: 30px;
+	font-weight: 700;
+	font-family: sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 60px;
+}
+.tieuDeSanPham p {
+	font-size: 14px;
+    color: #666;
+	font-family: Fixed, monospace;
+	line-height: 60px;
+	text-align: center;
+}
+.tieu-de-san-pham {
+	width: 200px;
+	height: 1px;
+	background: #666;
+	margin: auto;
+	
+}
+#back .icoi-len{
+	opacity: 1;
+}
+#back{
+	border-radius: 50%;
+    line-height: 48px;
+    background-color: red;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 50px;
+    right: 20px;
+    transition: all .4s ease 0s;
+    font-size: 11px;
+    height: 50px;
+    z-index: 997;
+    cursor: pointer;
+}
+.heyhey {
+	content: "\f077";
+}

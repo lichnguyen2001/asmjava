@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+
+}
+/*#hien-thi-san-pham{ đi ngang
+    display: flex;
+}*/
+.san-pham{
+    position: relative;
+    width: 21%;
+    height: 405px;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 22px;
+}
+
+.ten-san-pham{
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.gia-goc-san-pham{
+    font-size: 10px;
+    color: #666;
+    text-decoration: line-through;
+    float: left;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.gia-ban {
+    font-size: 15px;
+    color: rgb(241, 125, 125);
+    padding-right: 100px;
+    float: right;
+}
+
+.khu-vuc-san-pham{
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#them-gio {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#them-gio:hover {
+    color: rgb(43, 238, 53);
+    background-color: rgb(231, 119, 85);
+}
+
+.giam-gia {
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    left: calc(90% - 40px);
+}
+.hinh-anh-san-pham{
+    height: 226px;
+}
